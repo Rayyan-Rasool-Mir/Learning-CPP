@@ -16,9 +16,9 @@ using namespace std;
 //find the second largest element in an array w/o sorting in O(n) TC
 int main()
 {
-    int arr[4] = {10, 9, 8, 7};
-    int largest = 0;
-    int secondlargest = 0;
+    int arr[4] = {-10, -9, -8, 7};
+    int largest = INT_MIN;
+    int secondlargest = INT_MIN;
 
     for (int i = 0; i < 4; i++)
     {
